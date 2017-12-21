@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "dual-import",
+    "syntax-dynamic-import"
+  ]
+}

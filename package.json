@@ -1,0 +1,36 @@
+{
+  "name": "demo-css-module-dynamic-import",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint . && stylelint **/*.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus Greystone <markus.greystone@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^5.5.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-dual-import": "^1.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-css-chunks-webpack-plugin": "^2.0.18",
+    "flush-css-chunks-webpack-plugin": "^0.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "stylelint": "^8.4.0",
+    "stylelint-config-css-modules": "^1.1.0",
+    "stylelint-config-standard": "^18.0.0",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,4 @@
+.c {
+  composes: base from './app.css';
+  color: #ccc;
+}
