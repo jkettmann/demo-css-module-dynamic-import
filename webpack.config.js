@@ -49,6 +49,11 @@ module.exports = {
   },
   plugins: [
     extractCssChunks,
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'main',
+      async: 'common',
+      minChunks: 2
+    }),
     new FlushCssChunksPlugin({ entryOnly: true }),
     new webpack.NamedModulesPlugin(),
     new HtmlWebpackPlugin()
